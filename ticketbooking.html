@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ticketbooking.css">
+    <title>Ticket Booking | Rangasala</title>
+</head>
+<body>
+   
+    <header id="top-navbar">
+        <h1>Rangasala Ticket Booking</h1>
+    </header>
+
+
+    
+    <nav id="navbar">
+        <a href="homepage.html">Home</a>
+        <a href="viewmatches.html">View Matches</a>
+        <a href="tickettypes.html">Ticket Types</a>
+        <a href="ticketbooking.html">Ticket Booking</a>
+    </nav>
+
+   
+    <main class="main-content">
+        <div class="container">
+            <h1>Book Your Tickets</h1>
+            <form id="booking-form" action="abc.php" method="post">
+            
+                <div class="form-group">
+                    <label for="match">Select Match:</label>
+                    <select id="match" name="match" required>
+                        <option value="">Select a Match</option>
+                        <option value="match1">Match 1 - Team A vs Team B</option>
+                        <option value="match2">Match 2 - Team C vs Team D</option>
+                        <option value="match3">Match 3 - Team E vs Team F</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="ticket-type">Ticket Type:</label>
+                    <select id="ticket-type" name="ticket-type" required>
+                        <option value="">Select Ticket Type</option>
+                        <option value="regular">Regular - Rs.100 per ticket</option>
+                        <option value="vip">VIP - Rs.300 per ticket</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="quantity">Number of Tickets:</label>
+                    <input type="number" id="quantity" name="quantity" placeholder="maximum is 10" min="1" max="10" value="1" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+
+               
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                
+                <div class="form-group">
+                    <button type="submit">Book Now</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer-nav">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">FAQ</a>
+        </div>
+        <p>&copy; 2024 Rangasala Ticket Booking. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

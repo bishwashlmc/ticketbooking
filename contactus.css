@@ -1,0 +1,151 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+#top-navbar {
+    background-color: rgb(2, 2, 78);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+#navbar a {
+    color: rgb(2, 2, 78);
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+#navbar a:hover {
+    color: rgb(179, 50, 14); 
+    border-radius: 5px;
+    font-size: 18px;
+    transform: scale(1.1); 
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-header h2 {
+    color: rgb(2, 2, 131); 
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contact-header p {
+    color: #666;
+    font-size: 1rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.contact-form button {
+    display: inline-block;
+    background-color:rgb(2, 2, 78);
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contact-form button:hover {
+    color:white;
+    transform: scale(1.2);
+}
+
+.contact-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-info h3 {
+    color: rgb(2, 2, 131); 
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+footer {
+    background-color: rgb(2, 2, 78); 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+#footer-nav {
+    margin-bottom: 10px;
+}
+
+#footer-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+#footer-nav a:hover {
+    color: #ffcc00; 
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}

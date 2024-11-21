@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Get in touch with Rangasala for ticket bookings and inquiries.">
+    <title>Contact Us | Rangasala Ticket Booking</title>
+    <link rel="stylesheet" href="contactus.css">
+</head>
+<body>
+    
+    <header id="top-navbar">
+        <h1>Rangasala Ticket Booking</h1>
+    </header>
+
+    
+    <nav id="navbar">
+        <a href="homepage.html">Home</a>
+        <a href="viewmatches.html">View Matches</a>
+        <a href="tickettypes.html">Ticket Types</a>
+        <a href="ticketbooking.html">Ticket Booking</a>
+        <a href="about.html">About Us</a>
+    </nav>
+
+    <main class="main-content">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2>Contact Us</h2>
+                <p>Have a question or need help? We'd love to hear from you.</p>
+            </div>
+
+            <form class="contact-form" action="process_contact.php" method="POST">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <h3>Reach Us At:</h3>
+                <p><strong>Email:</strong> support@rangasala.com</p>
+                <p><strong>Phone:</strong> +123-456-7890</p>
+                <p><strong>Address:</strong> Rangasala Stadium, Main City Road, CityName</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer-nav">
+            <a href="#" target="_blank" rel="noopener">Privacy Policy</a>
+            <a href="#" target="_blank" rel="noopener">Terms of Service</a>
+            <a href="#" target="_blank" rel="noopener">FAQ</a>
+        </div>
+        <p>&copy; 2024 Rangasala Ticket Booking. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

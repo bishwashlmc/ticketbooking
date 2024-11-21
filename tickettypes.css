@@ -1,0 +1,131 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9; 
+    color: #333;
+}
+
+#top-navbar {
+    background-color: rgb(2, 2, 78); 
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+#navbar a {
+    color: rgb(2, 2, 78); 
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+#navbar a:hover {
+    color: rgb(179, 50, 14); 
+    border-radius: 5px;
+    font-size: 18px;
+    transform: scale(1.1); 
+}
+
+.container {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+}
+
+.ticket-type {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+.ticket-type:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.ticket-type h2 {
+    color: rgb(2, 2, 78); 
+    margin-top: 0;
+}
+
+.ticket-type p {
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+
+.book-now-button {
+    display: inline-block;
+    background-color: rgb(2, 2, 78);
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.book-now-button:hover {
+    color: white;
+    transform: scale(1.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: rgb(2, 2, 78); 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+#footer-nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+#footer-nav a:hover {
+    color: orange; 
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+    #navbar {
+        flex-direction: column; 
+    }
+
+    .container {
+        margin: 2rem 1rem;
+        padding: 1rem;
+    }
+
+    .ticket-type {
+        padding: 0.5rem;
+    }
+
+    .book-now-button {
+        width: 90%;
+    }
+}
